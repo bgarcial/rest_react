@@ -1,0 +1,20 @@
+{
+  "name": "sample-react",
+  "version": "1.0.0",
+  "description": "React Sample with Django and Rest Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0"
+  }
+}

@@ -1,0 +1,19 @@
+{% load pipeline %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nuestro sitio web</title>
+    {% javascript 'bundle_js' %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <div id="rnd" class="container">
+        
+    </div>
+    <script>
+        createRandomViewer("rnd", "{% url 'myapp:random' %}");
+    </script>
+</body>
+</html>
